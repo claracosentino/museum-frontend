@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "PtatzThin";
+        src: url("./assets/font/fjPlatzGroteske-Thin.ttf") format("ttf");
+    }
+    @font-face {
+        font-family: "PtatzLight";
+        src: url("./assets/font/fjPlatzGroteske-Light.ttf") format("ttf");
+    }
+    @font-face {
+        font-family: "PtatzRegular";
+        src: url("./assets/font/fjPlatzGroteske-Regular.ttf") format("ttf");
+    }
+    @font-face {
+        font-family: "PtatzBlack";
+        src: url("./assets/font/fjPlatzGroteske-Black.ttf") format("ttf");
+    }
+}
+
+body {
+    font-family: "PtatzRegular", sans-serif;
+    background-color: aquamarine;
+}
+
+.ptatz-thin {
+  font-family: 'PtatzThin', sans-serif;
+}
+
+.ptatz-light {
+  font-family: 'PtatzLight', sans-serif;
+}
+
+.ptatz-regular {
+  font-family: 'PtatzRegular', sans-serif;
+}
+
+.ptatz-black {
+  font-family: 'PtatzBlack', sans-serif;
+}
